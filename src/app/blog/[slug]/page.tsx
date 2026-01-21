@@ -3,8 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/posts";
 
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map((post) => ({
@@ -55,7 +53,6 @@ export default async function BlogPostPage({ params }: Props) {
           </time>
         </header>
 
-        {/* biome-ignore lint/security/noDangerouslySetInnerHtml: Markdown content is sanitized by remark */}
         <div
           dangerouslySetInnerHTML={{ __html: post.content }}
           style={{ lineHeight: 1.8 }}

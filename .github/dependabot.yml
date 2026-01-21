@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # pnpm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    versioning-strategy: increase
+    groups:
+      # Group patch and minor updates together
+      dependencies:
+        update-types:
+          - "minor"
+          - "patch"
+      # Separate group for major updates
+      major-dependencies:
+        update-types:
+          - "major"
+    labels:
+      - "dependencies"
+      - "automated"

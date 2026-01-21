@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sample > snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1>
+      Sample Header
+    </h1>
+    <div>
+      <p>
+        Sample paragraph text.
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;

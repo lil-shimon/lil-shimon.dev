@@ -16,9 +16,13 @@
   },
   "dependencies": {
     "@typescript/native-preview": "7.0.0-dev.20251027.1",
+    "gray-matter": "^4.0.3",
     "next": "^16.0.10",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.8",

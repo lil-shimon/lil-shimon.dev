@@ -25,6 +25,18 @@ export interface Post extends PostMeta {
 const postsDirectory = path.join(process.cwd(), "src/content/posts");
 
 /**
+ * 日付をフォーマットされた文字列に変換
+ * gray-matterはYAML日付をDateオブジェクトとして解析するため、
+ * 明示的に文字列に変換する必要がある
+ */
+function formatDate(date: unknown): string {
+  if (date instanceof Date) {
+    return date.toISOString().split("T")[0];
+  }
+  return String(date);
+}
+
+/**
  * 全記事のメタデータを日付降順で取得
  */
 export function getAllPosts(): PostMeta[] {
@@ -44,7 +56,7 @@ export function getAllPosts(): PostMeta[] {
       return {
         slug,
         title: data.title as string,
-        date: data.date as string,
+        date: formatDate(data.date),
         description: data.description as string | undefined,
       };
     });
@@ -75,7 +87,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   return {
     slug,
     title: data.title as string,
-    date: data.date as string,
+    date: formatDate(data.date),
     description: data.description as string | undefined,
     content: contentHtml,
   };

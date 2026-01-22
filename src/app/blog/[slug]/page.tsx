@@ -54,6 +54,7 @@ export default async function BlogPostPage({ params }: Props) {
         </header>
 
         <div
+          className="article-content"
           dangerouslySetInnerHTML={{ __html: post.content }}
           style={{ lineHeight: 1.8 }}
         />

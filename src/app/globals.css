@@ -32,3 +32,38 @@ ul,
 ol {
   padding-left: 1.5rem;
 }
+
+/* Article Content Styles */
+.article-content p {
+  margin-bottom: 1.5em;
+}
+
+.article-content a {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.article-content a:hover {
+  color: #0050c0;
+}
+
+.article-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.article-content h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}

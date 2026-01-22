@@ -3,9 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/posts";
 
-// NOTE: cloudflare pagesの設定
-export const runtime = "edge";
-
 export function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map((post) => ({

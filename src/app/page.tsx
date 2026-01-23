@@ -6,7 +6,10 @@ export default function Home() {
 
   return (
     <main style={{ maxWidth: "640px", margin: "0 auto", padding: "2rem 1rem" }}>
-      <h1 style={{ marginBottom: "2rem" }}>lil-shimon.dev</h1>
+      <h1 style={{ marginBottom: "0.5rem" }}>雑記帳</h1>
+      <p style={{ marginBottom: "2rem", color: "#666" }}>
+        特に意味のないことを書いています
+      </p>
       {posts.length === 0 ? (
         <p>記事がありません</p>
       ) : (

@@ -82,3 +82,8 @@ ol {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.875em;
 }
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: 1.5em;
+}

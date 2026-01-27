@@ -1,7 +1,7 @@
 ---
-title: Lunaってなんだ
+title: Lunaってなんだ (Terraプロジェクト)
 date: 2026-01-27
-description: 理解のために触ってみようと思ったけど今は終了しているっぽい
+description: 暴落を引き起こした過去があった
 ---
 
 MEXCをみてると今まで目に入ってこなかった`LUNA`が目に入ってきた。

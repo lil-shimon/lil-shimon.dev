@@ -74,3 +74,11 @@ ol {
   margin: 1.5rem 0;
   color: #666;
 }
+
+.article-content code {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 0.2em 0.4em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.875em;
+}

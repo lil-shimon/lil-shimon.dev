@@ -4,17 +4,21 @@ date: 2026-01-27
 description: 暴落を引き起こした過去があった
 ---
 
+※ ここで取り扱っているLUNAの情報は`Terra Classic`の情報
+`Terra 2.0`とは違う。
+
 MEXCをみてると今まで目に入ってこなかった`LUNA`が目に入ってきた。
 アイコンがかっこいい。。。
 
 ![LUNAのアイコン](/blog/luna-mexc.png) 
 
-上位の方に表示されていたのでなぜ今まで知らなかったのか？と思い少し調べて見ると
+MEXCの上位の方に表示されていたのでなぜ今まで知らなかったのか？と思い少し調べて見ると
 結構前からは存在してた。
 
 https://www.mexc.co/ja-JP/announcements/search?query=luna
 
-僕がMEXCで取引画面を見ていた時はSorana祭が開催してて、Soranaチェーンのトークンばかり見てたから知らなかったのかなと予測。
+自分がMEXCで取引画面を見ていた時はSorana祭が開催してて、Soranaチェーンのトークンばかり見てたから知らなかったのかなと予測。
+あとは単純にアビトラできそうな通貨ペアばかり適当に見ていてトークン自体に興味を持たなかったこともありそう。
 
 ざっくりとした理解だとステーブルコインの価格を安定させるために動いていたTerraプロジェクトのトークン
 
@@ -109,6 +113,11 @@ CEX_B: 1SOL 10000 TerraUSD
 たとえば1TerraUSDが10000LUNAの時に買いがたくさん入ると一回の注文あたりに10000LUNA程度が発行されていくということか。
 なので市場の発行枚数が価格が下がれば下がるほど増えていき、さらに発行枚数が増えることでLUNA自体の価値も下がっていく。そこからまた上昇を期待した投資家からの買い注文が入り,,,というスパイラルか。理解理解
 
+# 現在
+
+このブログで取り上げたLUNAは過去のものとなり、現在は`Terra 2.0`という別のプロジェクトで動いている。
+別の機会でこの`Terra 2.0`のことは調べてまとめよう。
+
 次にやりたいこと
 - Anchorの収入源について深掘り
 - Terra2.0プロジェクトがあるらしい？現状を追いかけてみる
@@ -117,3 +126,4 @@ CEX_B: 1SOL 10000 TerraUSD
 - https://jinacoin.ne.jp/luna/
 - https://financefeeds.com/ja/how-anchor-protocols-yield-model-worked/
 - https://ecos.am/en/blog/terra-luna-crash-complete-breakdown-of-the-luna-and-ust-algorithmic-stablecoin-implosion
+- https://medium.com/terra-money/terra-2-0-luna-airdrop-cd08a6d9cfcd

@@ -44,6 +44,6 @@ draft: true
 
 これからの検証でここら辺を見つけていこうと思う。
 
-/Users/shimonlil/Library/Application\ Support/CleanShot/media/media_CHB3CYOGYV/CleanShot\ 2026-01-31\ at\ 20.02.02.png 
+![](/blog/mm-looking-back-01.png) 
 
-/Users/shimonlil/Library/Application\ Support/CleanShot/media/media_skQFKhgPsH/CleanShot\ 2026-01-31\ at\ 20.06.03.png
+![](/blog/mm-looking-back-02.png)

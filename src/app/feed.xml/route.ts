@@ -36,7 +36,7 @@ function generateRssFeed(): string {
 
   const items = posts
     .map((post) => {
-      const link = `${SITE_URL}/posts/${post.slug}`;
+      const link = `${SITE_URL}/blog/${post.slug}`;
       return `    <item>
       <title>${escapeXml(post.title)}</title>
       <link>${link}</link>

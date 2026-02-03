@@ -33,23 +33,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: post.date,
       url: `/blog/${slug}`,
-      images: [{
-        url: "https://lil-shimon.dev/og-image.png",
-        width: 1424,
-        height: 752,
-        alt: post.title,
-      }],
+      images: [
+        {
+          url: "https://lil-shimon.dev/og-image.png",
+          width: 1424,
+          height: 752,
+          alt: post.title,
+        },
+      ],
     },
     twitter: {
       title: post.title,
       description: post.description,
       card: "summary_large_image",
-      images: [{
-        url: "https://lil-shimon.dev/og-image.png",
-        width: 1424,
-        height: 752,
-        alt: post.title,
-      }],
+      images: [
+        {
+          url: "https://lil-shimon.dev/og-image.png",
+          width: 1424,
+          height: 752,
+          alt: post.title,
+        },
+      ],
     },
   };
 }

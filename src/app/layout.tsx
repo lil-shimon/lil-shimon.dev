@@ -33,6 +33,11 @@ export const metadata: Metadata = {
     creator: "@lil_shimon",
     images: ["/og-image.png"],
   },
+  alternates: {
+    types: {
+      'application/rss+xml': '/feed.xml',
+    },
+  },
 };
 
 export default function RootLayout({

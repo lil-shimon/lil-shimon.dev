@@ -51,7 +51,7 @@ description: コーヒー好きなど凝り性の人には刺さると思う
 
 https://www.japanshishatimes.jp/feature/howtoshisha-b-side-parameter
 
-(そうへいさんという方のシーシャを吸って、自分でも作れるようになりたいと思い家シーシャ始めた)
+(↑のそうへいさんのシーシャを吸って、自分でも作れるようになりたいと思い家シーシャ始めた)
 
 ## とことん追求できる
 

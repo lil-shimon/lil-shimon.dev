@@ -73,7 +73,10 @@ https://www.japanshishatimes.jp/feature/howtoshisha-b-side-parameter
 あとシーシャは大体1~2時間。
 落ち着いて長時間まったりと過ごせるので普段忙しくしてる社会人にこそおすすめできる
 
+## まとめ
+
 人にシーシャに振る舞うのはいつになっても緊張はする。
+
 でもそれを含めて楽しい
 
 以上。

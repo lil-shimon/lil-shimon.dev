@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => {
@@ -28,7 +29,7 @@ export const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/icons/x.svg" alt="X" width={20} height={20} />
+          <Image src="/icons/x.svg" alt="X" width={20} height={20} />
         </a>
         <a
           href="https://github.com/lil-shimon"

@@ -36,7 +36,7 @@ export const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/icons/github.svg" alt="GitHub" width={24} height={24} />
+          <Image src="/icons/github.svg" alt="GitHub" width={24} height={24} />
         </a>
       </div>
     </header>

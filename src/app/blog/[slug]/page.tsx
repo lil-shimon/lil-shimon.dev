@@ -67,5 +67,5 @@ export default async function BlogPostPage({ params }: Props) {
     notFound();
   }
 
-  return <PostDetail post={post} />
+  return <PostDetail post={post} />;
 }

@@ -23,6 +23,10 @@ bladeのように管理画面とかをサクッと作るのには良いのかな
 `laravel new`で新しいプロジェクトをセットアップしていたら最後にAIのSKILLを作成するかとかMCPの設定を追加するか？というオプションが表示された。  
 Yesを選択するだけで使えそうなSKILLやMCPが設定される。（Claude Codeはもちろん、CodexやGemini、Cursorなど大体思いつくものは設定できる）  
 
+> laravel boost
+
+https://github.com/laravel/boost
+
 ここからはもうあんまり書きたくないなと思った理由。  
 これはLaravelの問題じゃないと思うけど。  
 普段はTSをメインで使っている自分からすると型がないのがこれほど辛いと思わなかった。  

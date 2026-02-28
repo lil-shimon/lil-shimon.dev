@@ -1,29 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./header.component.module.css";
 
 export const Header = () => {
   return (
-    <header
-      style={{
-        maxWidth: "640px",
-        margin: "0 auto",
-        padding: "1rem",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
-    >
-      <Link
-        href="/"
-        style={{
-          textDecoration: "none",
-          color: "inherit",
-          fontWeight: "bold",
-        }}
-      >
+    <header className={styles.header}>
+      <Link href="/" className={styles.logo}>
         lil-shimon.dev
       </Link>
-      <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+      <div className={styles.icons}>
         <a
           href="https://x.com/lil_shimon"
           target="_blank"

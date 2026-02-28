@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/posts";
+import { PostDetail } from "@/features/blog/components/post-detail.component";
 
 export function generateStaticParams() {
   const posts = getAllPosts();
@@ -68,26 +69,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main style={{ maxWidth: "720px", margin: "0 auto", padding: "2rem 1rem" }}>
-      <article>
-        <header style={{ marginBottom: "2rem" }}>
-          <h1 style={{ fontSize: "2rem", marginBottom: "0.5rem" }}>
-            {post.title}
-          </h1>
-          <time
-            dateTime={post.date}
-            style={{ color: "#666", fontSize: "0.875rem" }}
-          >
-            {post.date}
-          </time>
-        </header>
-
-        <div
-          className="article-content"
-          dangerouslySetInnerHTML={{ __html: post.content }}
-          style={{ lineHeight: 1.8 }}
-        />
-      </article>
-
+      <PostDetail post={post}/>
       <nav
         style={{
           marginTop: "3rem",

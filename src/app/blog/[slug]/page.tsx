@@ -67,20 +67,5 @@ export default async function BlogPostPage({ params }: Props) {
     notFound();
   }
 
-  return (
-    <main style={{ maxWidth: "720px", margin: "0 auto", padding: "2rem 1rem" }}>
-      <PostDetail post={post} />
-      <nav
-        style={{
-          marginTop: "3rem",
-          paddingTop: "1rem",
-          borderTop: "1px solid #eee",
-        }}
-      >
-        <Link href="/" style={{ color: "#0070f3", textDecoration: "none" }}>
-          ← トップへ戻る
-        </Link>
-      </nav>
-    </main>
-  );
+  return <PostDetail post={post} />
 }

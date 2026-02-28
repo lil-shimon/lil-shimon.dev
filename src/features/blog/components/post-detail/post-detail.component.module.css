@@ -1,4 +1,10 @@
 .container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.article {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -21,4 +27,15 @@
 
 .content {
   line-height: 1.8;
+}
+
+.nav {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid #eee;
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: none;
 }

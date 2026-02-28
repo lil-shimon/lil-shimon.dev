@@ -1,7 +1,7 @@
 ---
 title: 久しぶりにLaravel/PHPを書いて感じたこと
 date: 2026-02-28
-description: 今後の自作言語の思想にこの感覚は役立ちそう。
+description: LaravelがTypeScriptフレームワークででたら使いたい
 ---
 
 Laravelは以前に2年半ほど実務で使っていた。  

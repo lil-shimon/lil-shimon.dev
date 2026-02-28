@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/posts";
 import { PostDetail } from "@/features/blog/components/post-detail.component";
+import { getAllPosts, getPostBySlug } from "@/lib/posts";
 
 export function generateStaticParams() {
   const posts = getAllPosts();
@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main style={{ maxWidth: "720px", margin: "0 auto", padding: "2rem 1rem" }}>
-      <PostDetail post={post}/>
+      <PostDetail post={post} />
       <nav
         style={{
           marginTop: "3rem",

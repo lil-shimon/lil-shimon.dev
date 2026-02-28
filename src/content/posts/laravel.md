@@ -27,6 +27,23 @@ Yesを選択するだけで使えそうなSKILLやMCPが設定される。（Cla
 
 https://github.com/laravel/boost
 
+こんな感じでMCPを使いつつ実装していってくれる
+```
+⏺ laravel-boost - database-schema (MCP)(filter: "wallet_tokens", include_column_details: true)
+  ⎿  {
+       "engine": "sqlite",
+       "tables": {
+     … +58 lines (ctrl+o to expand)
+
+⏺ laravel-boost - list-artisan-commands (MCP)
+  ⎿  [{"name":"_complete","description":"Internal command to provide shell completion suggestions"},{"name":"about","descr
+     iption":"Display basic information about your application"},{"name":"auth:clear-resets","description":"Flush expired
+     password reset tokens"},{"name":"boost:add-skill","description":"Add skills from a remote GitHub repository"},{"name"
+     … +100 lines (ctrl+o to expand)
+
+⏺ Bash(php artisan make:migration add_usdt_value_to_wallet_tokens_table --no-interaction)
+```
+
 ここからはもうあんまり書きたくないなと思った理由。  
 これはLaravelの問題じゃないと思うけど。  
 普段はTSをメインで使っている自分からすると型がないのがこれほど辛いと思わなかった。  

@@ -1,6 +1,7 @@
 ---
-description: Create git commit
-allowed-tools: Bash(git *), Read
+name: commit
+description: Create git commit. 「コミットして」「/commit」「変更をcommitして」などで起動。変更をレビューしてコンテキスト単位でステージングし、コミットを作成してプッシュする。
+tools: Bash(git *), Read
 ---
 
 You are a software engineer who wants to create a git commit after making changes to the codebase.

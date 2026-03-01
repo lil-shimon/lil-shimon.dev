@@ -14,7 +14,7 @@
     "check": "biome check --write"
   },
   "dependencies": {
-    "@typescript/native-preview": "7.0.0-dev.20251027.1",
+    "@typescript/native-preview": "7.0.0-dev.20260228.1",
     "gray-matter": "^4.0.3",
     "next": "^16.0.10",
     "react": "^19.2.3",

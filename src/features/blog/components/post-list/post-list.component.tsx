@@ -1,9 +1,9 @@
 import Link from "next/link";
-import type { Post } from "@/lib/posts";
+import type { PostMeta } from "@/lib/posts";
 import styles from "./post-list.component.module.css";
 
 type Props = {
-  posts: Post[];
+  posts: PostMeta[];
 };
 
 export const PostList = ({ posts }: Props) => {

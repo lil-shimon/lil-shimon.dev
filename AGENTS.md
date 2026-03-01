@@ -4,7 +4,7 @@
 - **Source:** Next.js App Router in `src/app/` (`layout.tsx`, `page.tsx`).
 - **Styles:** Global CSS in `src/app/globals.css`.
 - **Assets:** Public, versioned files in `public/`.
-- **Config:** `next.config.ts`, `eslint.config.mjs`, `tsconfig.json` (path alias `@/*` → `src/*`).
+- **Config:** `next.config.ts`, `biome.json`, `tsconfig.json` (path alias `@/*` → `src/*`).
 - **Tests:** Co‑locate as `*.test.ts[x]` or use `src/__tests__/`.
 
 ## Build, Test, and Development Commands
@@ -12,7 +12,7 @@
 - **Dev server:** `pnpm dev` — runs Next.js with Turbopack.
 - **Build:** `pnpm build` — creates production bundles.
 - **Start:** `pnpm start` — serves the production build.
-- **Lint:** `pnpm lint` — Next + TypeScript rules.
+- **Lint:** `pnpm lint` — biome check (formatter + linter).
 - **Tests:** `pnpm exec vitest` (add `--watch` or `--ui` as needed).
 
 ## Coding Style & Naming Conventions
@@ -20,7 +20,7 @@
 - **Modules:** Prefer `@/…` imports over deep relatives (e.g., `@/app/page`).
 - **Components:** PascalCase in `.tsx`; App Router files follow Next patterns (`page.tsx`, `layout.tsx`).
 - **CSS:** Keep globals minimal; favor component‑scoped styles when added.
-- **Linting:** Extends `next/core-web-vitals` and `next/typescript`. Fix warnings before PRs.
+- **Linting:** Biome recommended rules. Fix warnings before PRs.
 
 ## Testing Guidelines
 - **Framework:** Vitest.

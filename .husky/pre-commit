@@ -1,1 +1,1 @@
-pnpm check
+npx pnpm check

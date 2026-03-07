@@ -1,7 +1,7 @@
 ---
-title:
+title: AIの使用とドーパミンの分泌
 date: 2026-03-07
-description:
+description: AIってギャンブルと似てる。
 ---
 ## AIの使用とドーパミンの分泌
 
